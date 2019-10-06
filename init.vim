@@ -138,6 +138,7 @@ map <LEADER>k <C-w>k
 map <LEADER>h <C-w>h
 map <LEADER>j <C-w>j
 
+map <LEADER>r :!python %<CR>
 
 map <up> :res +5<CR>
 map <down> :res -5<CR>
