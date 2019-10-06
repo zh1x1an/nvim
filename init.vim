@@ -2,11 +2,7 @@
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
 let mapleader=" "
-
 call plug#begin('~/.vim/plugged')
-
-
-
 " assuming you're using vim-plug: https://github.com/junegunn/vim-plug
 "Plug 'ncm2/ncm2'
 "Plug 'roxma/nvim-yarp'
