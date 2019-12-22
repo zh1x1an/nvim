@@ -167,6 +167,8 @@ set shiftwidth=2
 set softtabstop=2
 set list
 
+set clipboard=unnamedplus
+
 set backspace=indent,eol,start
 set wildmenu
 set foldmethod=indent
