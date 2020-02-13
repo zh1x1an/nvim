@@ -283,4 +283,3 @@ map <silent> T :TagbarOpenAutoClose<CR>
 let g:undotree_DiffAutoOpen = 0
 map L :UndotreeToggle<CR>
 
-" test
