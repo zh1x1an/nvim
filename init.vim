@@ -34,10 +34,7 @@ Plug 'connorholyday/vim-snazzy'
 
 " coc-vim
 " Use release branch (Recommend)
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" Or build from source code by use yarn: https://yarnpkg.com
-" Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " vim-airline-themes
 Plug 'vim-airline/vim-airline-themes'
