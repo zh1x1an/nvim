@@ -58,6 +58,8 @@ Plug 'ryanoasis/vim-devicons'
 " Distraction-free writing in Vim
 Plug 'junegunn/goyo.vim'
 
+" vim theme gruvbox
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " user config 
@@ -161,5 +163,6 @@ let g:syntastic_check_on_wq = 0
 
 " open the file at the same line last time
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+autocmd vimenter * colorscheme gruvbox
 
 map <LEADER>g :Goyo<CR>
