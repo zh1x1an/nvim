@@ -60,6 +60,11 @@ Plug 'junegunn/goyo.vim'
 
 " vim theme gruvbox
 Plug 'morhetz/gruvbox'
+
+" Use (neo)vim terminal in the floating/popup window.
+
+Plug 'voldikss/vim-floaterm'
+
 call plug#end()
 
 " user config 
@@ -105,7 +110,7 @@ syntax on
 
 " user config
 " ===========
-" map
+" 
 
 map S :w!<CR>
 map Q :q!<CR>
@@ -131,6 +136,9 @@ map tu :tabnew
 map tn :tabn<CR>
 map ti :tabp<CR>
 map ts :tabs<CR>
+
+" float terminal
+map to :FloatermNew<CR>
 
 " Plugins options
 " ===============
