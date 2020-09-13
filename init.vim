@@ -62,7 +62,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'morhetz/gruvbox'
 
 " Use (neo)vim terminal in the floating/popup window.
-
 Plug 'voldikss/vim-floaterm'
 
 call plug#end()
