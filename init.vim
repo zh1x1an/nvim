@@ -119,16 +119,16 @@ map <LEADER>s :nohlsearch<CR>
 map si :set splitright<CR>:vsplit<CR>:e
 
 map th i<++><Esc>
-map tx :r !flglet zh1x1an<CR>
+map tx csw(ihex<Esc>
 
 " place holder
 map <C-j> <Esc>/<++><CR>:nohlsearch<CR>c4l
 
 " leader hjkl for splitw
 map <C-l> <C-w>l
-map <C-k> <C-w>k
+" map <C-k> <C-w>k
 map <C-h> <C-w>h
-map <C-j> <C-w>j
+" map <C-j> <C-w>j
 
 " tab
 map tu :tabnew
