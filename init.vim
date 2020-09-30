@@ -55,9 +55,6 @@ Plug 'jiangmiao/auto-pairs'
 " Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more
 Plug 'ryanoasis/vim-devicons'
 
-" Distraction-free writing in Vim
-Plug 'junegunn/goyo.vim'
-
 " vim theme gruvbox
 Plug 'morhetz/gruvbox'
 
@@ -171,5 +168,3 @@ let g:syntastic_check_on_wq = 0
 " open the file at the same line last time
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 autocmd vimenter * colorscheme gruvbox
-
-map <LEADER>g :Goyo<CR>
