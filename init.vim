@@ -8,7 +8,6 @@ let mapleader=" "
 
 call plug#begin('~/.vim/plugged')
 
-
 " The NERD tree
 " A tree explorer plugin for vim.
 Plug 'scrooloose/nerdtree'
@@ -100,7 +99,6 @@ set cursorline
 set showcmd
 set autochdir
 set number
-
 
 syntax on
 
