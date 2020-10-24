@@ -1,2 +1,2 @@
 # nvim
-my nvim config
+my nvim config with subtree
