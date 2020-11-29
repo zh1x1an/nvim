@@ -126,7 +126,7 @@ map <C-h> <C-w>h
 " map <C-j> <C-w>j
 
 " tab
-map tu :tabnew
+map tu :tabnew 
 map tn :tabn<CR>
 map ti :tabp<CR>
 map ts :tabs<CR>
