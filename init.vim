@@ -111,7 +111,7 @@ map Q :q!<CR>
 map K $
 map J ^
 map <LEADER>s :nohlsearch<CR>
-map si :set splitright<CR>:vsplit<CR>:e
+map si :set splitright<CR>:vsplit<CR>:e 
 
 map th i<++><Esc>
 map tx csw(ihex<Esc>
