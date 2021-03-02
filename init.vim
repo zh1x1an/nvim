@@ -31,6 +31,9 @@ Plug 'vim-airline/vim-airline'
 " color theme
 Plug 'connorholyday/vim-snazzy'
 
+" use <Enter>
+Plug 'gcmt/wildfire.vim'
+
 " coc-vim
 " Use release branch (Recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
