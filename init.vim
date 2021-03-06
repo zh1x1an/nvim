@@ -168,4 +168,7 @@ let g:syntastic_check_on_wq = 0
 
 " open the file at the same line last time
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-autocmd vimenter * colorscheme gruvbox
+
+" gruvbox color scheme
+colorscheme gruvbox
+set background=dark
