@@ -92,7 +92,7 @@ set ignorecase
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set list
+"set list
 set backspace=indent,eol,start
 set tw=0
 set wildmenu
