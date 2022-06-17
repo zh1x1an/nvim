@@ -170,3 +170,4 @@ let g:syntastic_check_on_wq = 0
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 set background=dark
+autocmd vimenter * colorscheme gruvbox
